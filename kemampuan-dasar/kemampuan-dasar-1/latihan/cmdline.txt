@@ -1,0 +1,741 @@
+1. C:\Users\User>netstat
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State
+  TCP    192.168.42.2:49248     lb-140-82-114-25-iad:https  ESTABLISHED
+  TCP    192.168.42.2:49447     lb-192-30-253-124-iad:https  ESTABLISHED
+  TCP    192.168.42.2:49461     200:https              ESTABLISHED
+  TCP    192.168.42.2:49462     a104-93-232-32:https   ESTABLISHED
+
+
+2. C:\Users\User>date
+The current date is: Tue 02/18/2020
+Enter the new date: (mm-dd-yy)
+
+
+3. C:\Users\User>dir D:
+ Volume in drive D has no label.
+ Volume Serial Number is 3CC5-3CA3
+
+ Directory of D:\
+
+02/18/2020  06:58 PM                14 coba.txt
+08/23/2019  05:34 PM    <DIR>          Dari D
+02/18/2020  06:18 PM    <DIR>          praxis-academy
+               1 File(s)             14 bytes
+               2 Dir(s)  180,796,710,912 bytes free
+
+4. C:\Users\User>echo Hello World
+Hello World
+
+
+5. C:\Users\User>help hostname /?
+Provides help information for Windows commands.
+
+HELP [command]
+
+    command - displays help information on that command.
+
+
+6. C:\Users\User>help shift
+Changes the position of replaceable parameters in a batch file.
+
+SHIFT [/n]
+
+If Command Extensions are enabled the SHIFT command supports
+the /n switch which tells the command to start shifting at the
+nth argument, where n may be between zero and eight.  For example:
+
+    SHIFT /2
+
+would shift %3 to %2, %4 to %3, etc. and leave %0 and %1 unaffected.
+
+
+7. C:\Users\User>pushd F:
+
+F:\>
+
+
+8. C:\Users\User>query user
+ USERNAME              SESSIONNAME        ID  STATE   IDLE TIME  LOGON TIME
+>user                  console             1  Active      none   2/18/2020 6:15 PM
+
+
+9. C:\Users\User>assoc .txt
+.txt=txtfile
+
+C:\Users\User>assoc .xls
+.xls=Excel.Sheet.8
+
+
+10. C:\Users\User>gpupdate /force
+Updating Policy...
+
+User Policy update has completed successfully.
+Computer Policy update has completed successfully.
+
+
+11. C:\Users\User>ipconfig
+
+Windows IP Configuration
+
+
+Ethernet adapter Local Area Connection 3:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::a43e:3d4d:c676:8dfd%19
+   IPv4 Address. . . . . . . . . . . : 192.168.42.2
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 192.168.42.129
+
+Ethernet adapter Local Area Connection 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Tunnel adapter isatap.{CE485208-FA29-49EB-AF84-9EA87C0E338A}:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Tunnel adapter isatap.{07D4E98C-304F-43ED-83F0-C89006FD4E3E}:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Tunnel adapter Teredo Tunneling Pseudo-Interface:
+
+   Connection-specific DNS Suffix  . :
+   IPv6 Address. . . . . . . . . . . : 2001:0:ca03:81d3:10:873:3f57:d5fd
+   Link-local IPv6 Address . . . . . : fe80::10:873:3f57:d5fd%23
+   Default Gateway . . . . . . . . . : ::
+
+
+12. C:\Users\User>Vol F:
+ Volume in drive F is New Volume
+ Volume Serial Number is 0A98-51D0
+
+
+13. C:\Users\User>systeminfo
+
+Host Name:                 USER-PC
+OS Name:                   Microsoft Windows 7 Ultimate
+OS Version:                6.1.7601 Service Pack 1 Build 7601
+OS Manufacturer:           Microsoft Corporation
+OS Configuration:          Standalone Workstation
+OS Build Type:             Multiprocessor Free
+Registered Owner:          User
+Registered Organization:   by adguard
+Product ID:                00426-OEM-8992662-00010
+Original Install Date:     12/5/2005, 12:15:39 AM
+System Boot Time:          2/18/2020, 6:44:06 PM
+System Manufacturer:       INTEL_
+System Model:              D945GLF2
+System Type:               X86-based PC
+Processor(s):              1 Processor(s) Installed.
+                           [01]: x64 Family 6 Model 28 Stepping 2 GenuineIntel ~
+1596 Mhz
+BIOS Version:              Intel Corp. LF94510J.86A.0171.2009.0403.0118, 4/3/200
+9
+Windows Directory:         C:\Windows
+System Directory:          C:\Windows\system32
+Boot Device:               \Device\HarddiskVolume1
+System Locale:             en-us;English (United States)
+Input Locale:              en-us;English (United States)
+Time Zone:                 (UTC+07:00) Bangkok, Hanoi, Jakarta
+Total Physical Memory:     1,014 MB
+Available Physical Memory: 262 MB
+Virtual Memory: Max Size:  2,038 MB
+Virtual Memory: Available: 659 MB
+Virtual Memory: In Use:    1,379 MB
+Page File Location(s):     C:\pagefile.sys
+Domain:                    WORKGROUP
+Logon Server:              \\USER-PC
+Hotfix(s):                 224 Hotfix(s) Installed.
+                           [01]: KB2849697
+                           [02]: KB2849697
+                           [03]: KB2849696
+                           [04]: KB2849696
+                           [05]: KB2841134
+                           [06]: KB2841134
+                           [07]: KB2670838
+                           [08]: KB2830477
+                           [09]: KB2592687
+                           [10]: KB917607
+                           [11]: KB2479943
+                           [12]: KB2491683
+                           [13]: KB2496290
+                           [14]: KB2496898
+                           [15]: KB2506212
+                           [16]: KB2506928
+                           [17]: KB2509553
+                           [18]: KB2511455
+                           [19]: KB2515325
+                           [20]: KB2534111
+                           [21]: KB2536275
+                           [22]: KB2544893
+                           [23]: KB2545698
+                           [24]: KB2546868
+                           [25]: KB2547666
+                           [26]: KB2548388
+                           [27]: KB2552343
+                           [28]: KB2560656
+                           [29]: KB2563227
+                           [30]: KB2564958
+                           [31]: KB2570947
+                           [32]: KB2574819
+                           [33]: KB2578214
+                           [34]: KB2579686
+                           [35]: KB2585542
+                           [36]: KB2604115
+                           [37]: KB2618301
+                           [38]: KB2619339
+                           [39]: KB2620704
+                           [40]: KB2621440
+                           [41]: KB2631813
+                           [42]: KB2640148
+                           [43]: KB2640696
+                           [44]: KB2647753
+                           [45]: KB2654428
+                           [46]: KB2660075
+                           [47]: KB2667402
+                           [48]: KB2676562
+                           [49]: KB2685811
+                           [50]: KB2685813
+                           [51]: KB2690533
+                           [52]: KB2698365
+                           [53]: KB2705219
+                           [54]: KB2712808
+                           [55]: KB2719857
+                           [56]: KB2726535
+                           [57]: KB2727528
+                           [58]: KB2729094
+                           [59]: KB2732059
+                           [60]: KB2732487
+                           [61]: KB2736422
+                           [62]: KB2739286
+                           [63]: KB2742599
+                           [64]: KB2750841
+                           [65]: KB2752161
+                           [66]: KB2761217
+                           [67]: KB2763523
+                           [68]: KB2770660
+                           [69]: KB2773072
+                           [70]: KB2779272
+                           [71]: KB2786081
+                           [72]: KB2799926
+                           [73]: KB2800095
+                           [74]: KB2803821
+                           [75]: KB2807986
+                           [76]: KB2808679
+                           [77]: KB2813347
+                           [78]: KB2813430
+                           [79]: KB2818604
+                           [80]: KB2820331
+                           [81]: KB2834140
+                           [82]: KB2839894
+                           [83]: KB2840631
+                           [84]: KB2843630
+                           [85]: KB2847927
+                           [86]: KB2852386
+                           [87]: KB2853952
+                           [88]: KB2857650
+                           [89]: KB2861698
+                           [90]: KB2862152
+                           [91]: KB2862330
+                           [92]: KB2862335
+                           [93]: KB2862973
+                           [94]: KB2864202
+                           [95]: KB2868038
+                           [96]: KB2868116
+                           [97]: KB2871997
+                           [98]: KB2882822
+                           [99]: KB2884256
+                           [100]: KB2887069
+                           [101]: KB2888049
+                           [102]: KB2891804
+                           [103]: KB2892074
+                           [104]: KB2893294
+                           [105]: KB2893519
+                           [106]: KB2894844
+                           [107]: KB2898851
+                           [108]: KB2900986
+                           [109]: KB2905454
+                           [110]: KB2908783
+                           [111]: KB2911501
+                           [112]: KB2912390
+                           [113]: KB2918077
+                           [114]: KB2919469
+                           [115]: KB2923398
+                           [116]: KB2923545
+                           [117]: KB2928562
+                           [118]: KB2929733
+                           [119]: KB2931356
+                           [120]: KB2937610
+                           [121]: KB2943357
+                           [122]: KB2957189
+                           [123]: KB2966583
+                           [124]: KB2968294
+                           [125]: KB2970228
+                           [126]: KB2972100
+                           [127]: KB2972211
+                           [128]: KB2972280
+                           [129]: KB2973112
+                           [130]: KB2973201
+                           [131]: KB2973351
+                           [132]: KB2976897
+                           [133]: KB2977292
+                           [134]: KB2977728
+                           [135]: KB2978120
+                           [136]: KB2978742
+                           [137]: KB2984972
+                           [138]: KB2985461
+                           [139]: KB2991963
+                           [140]: KB2992611
+                           [141]: KB2999226
+                           [142]: KB3000483
+                           [143]: KB3003743
+                           [144]: KB3004361
+                           [145]: KB3004375
+                           [146]: KB3006121
+                           [147]: KB3006137
+                           [148]: KB3006625
+                           [149]: KB3010788
+                           [150]: KB3011780
+                           [151]: KB3013531
+                           [152]: KB3019215
+                           [153]: KB3020338
+                           [154]: KB3020369
+                           [155]: KB3020370
+                           [156]: KB3020388
+                           [157]: KB3021674
+                           [158]: KB3022777
+                           [159]: KB3023215
+                           [160]: KB3030377
+                           [161]: KB3032655
+                           [162]: KB3033889
+                           [163]: KB3033890
+                           [164]: KB3033929
+                           [165]: KB3035126
+                           [166]: KB3035132
+                           [167]: KB3037574
+                           [168]: KB3040272
+                           [169]: KB3042553
+                           [170]: KB3045685
+                           [171]: KB3046017
+                           [172]: KB3046269
+                           [173]: KB3054476
+                           [174]: KB3055642
+                           [175]: KB3059317
+                           [176]: KB3060716
+                           [177]: KB3061518
+                           [178]: KB3063858
+                           [179]: KB3064209
+                           [180]: KB3067505
+                           [181]: KB3067903
+                           [182]: KB3069392
+                           [183]: KB3069762
+                           [184]: KB3071756
+                           [185]: KB3072305
+                           [186]: KB3072630
+                           [187]: KB3072633
+                           [188]: KB3074543
+                           [189]: KB3075226
+                           [190]: KB3076949
+                           [191]: KB3078601
+                           [192]: KB3078667
+                           [193]: KB3079821
+                           [194]: KB3080079
+                           [195]: KB3080446
+                           [196]: KB3081320
+                           [197]: KB3084135
+                           [198]: KB3086255
+                           [199]: KB3087039
+                           [200]: KB3092601
+                           [201]: KB3092627
+                           [202]: KB3093513
+                           [203]: KB3097877
+                           [204]: KB3097966
+                           [205]: KB3097989
+                           [206]: KB3099862
+                           [207]: KB3100213
+                           [208]: KB3101246
+                           [209]: KB3101722
+                           [210]: KB3101746
+                           [211]: KB3102429
+                           [212]: KB3104002
+                           [213]: KB3107998
+                           [214]: KB3108371
+                           [215]: KB3108381
+                           [216]: KB3108669
+                           [217]: KB3108670
+                           [218]: KB3109094
+                           [219]: KB3109103
+                           [220]: KB3112148
+                           [221]: KB3112343
+                           [222]: KB958488
+                           [223]: KB976902
+                           [224]: KB982018
+Network Card(s):           2 NIC(s) Installed.
+                           [01]: Realtek RTL8168C(P)/8111C(P) Family PCI-E Gigab
+it Ethernet NIC (NDIS 6.20)
+                                 Connection Name: Local Area Connection 2
+                                 Status:          Media disconnected
+                           [02]: Remote NDIS based Internet Sharing Device
+                                 Connection Name: Local Area Connection 3
+                                 DHCP Enabled:    Yes
+                                 DHCP Server:     192.168.42.129
+                                 IP address(es)
+                                 [01]: 192.168.42.2
+          
+                       [02]: fe80::a43e:3d4d:c676:8dfd
+
+14. C:\Users\User>timeout /t 10
+
+Waiting for  5 seconds, press a key to continue ...
+
+
+
+15. C:\Users\User>compact /c /s
+
+ Setting the directory C:\Users\User\ to compress new files [OK]
+
+ Compressing files in C:\Users\User\
+
+Application Data: Access is denied.
+
+2 files within 2 directories were compressed.
+0 total bytes of data are stored in 0 bytes.
+The compression ratio is 1.0 to 1.
+
+
+16. C:\Users\User>net
+The syntax of this command is:
+
+NET
+    [ ACCOUNTS | COMPUTER | CONFIG | CONTINUE | FILE | GROUP | HELP |
+      HELPMSG | LOCALGROUP | PAUSE | SESSION | SHARE | START |
+      STATISTICS | STOP | TIME | USE | USER | VIEW ]
+
+
+17. C:\Users\User>nslookup
+Default Server:  192.168.42.129
+Address:  192.168.42.129
+
+
+
+18. C:\Users\User>tasklist
+
+Image Name                     PID Session Name        Session#    Mem Usage
+========================= ======== ================ =========== ============
+System Idle Process              0 Services                   0         24 K
+System                           4 Services                   0        304 K
+smss.exe                       276 Services                   0        272 K
+csrss.exe                      380 Services                   0      1,540 K
+wininit.exe                    420 Services                   0        848 K
+csrss.exe                      428 Console                    1      5,568 K
+services.exe                   480 Services                   0      3,112 K
+winlogon.exe                   504 Console                    1      1,180 K
+lsass.exe                      532 Services                   0      4,412 K
+lsm.exe                        540 Services                   0      1,344 K
+svchost.exe                    640 Services                   0      3,496 K
+svchost.exe                    716 Services                   0      3,660 K
+svchost.exe                    804 Services                   0      6,764 K
+svchost.exe                    856 Services                   0     31,980 K
+svchost.exe                    888 Services                   0      5,128 K
+svchost.exe                    916 Services                   0     11,756 K
+audiodg.exe                    988 Services                   0      9,164 K
+svchost.exe                   1032 Services                   0      1,520 K
+svchost.exe                   1172 Services                   0      5,532 K
+spoolsv.exe                   1296 Services                   0      3,232 K
+svchost.exe                   1340 Services                   0      5,036 K
+armsvc.exe                    1448 Services                   0        792 K
+ijplmsvc.exe                  1484 Services                   0        868 K
+svchost.exe                   1532 Services                   0      1,608 K
+taskhost.exe                  1732 Console                    1      5,388 K
+dwm.exe                       1916 Console                    1     63,000 K
+explorer.exe                  1980 Console                    1     65,696 K
+SOUNDMAN.EXE                  1600 Console                    1      1,396 K
+SearchIndexer.exe             2256 Services                   0      8,488 K
+chrome.exe                    2844 Console                    1     82,744 K
+chrome.exe                    2860 Console                    1      2,112 K
+chrome.exe                    2892 Console                    1      1,864 K
+chrome.exe                    2992 Console                    1     38,348 K
+chrome.exe                    3000 Console                    1     17,824 K
+WmiPrvSE.exe                  3648 Services                   0      4,988 K
+chrome.exe                    1584 Console                    1     57,232 K
+svchost.exe                   2496 Services                   0     28,528 K
+chrome.exe                    3456 Console                    1     94,460 K
+wuauclt.exe                   3640 Console                    1      2,132 K
+SMdRTP.exe                    2808 Console                    1      8,156 K
+SmadavProtect32.exe            256 Console                    1        136 K
+svchost.exe                   1380 Services                   0      1,764 K
+OSPPSVC.EXE                   3568 Services                   0      8,140 K
+WINWORD.EXE                   2064 Console                    1     54,416 K
+chrome.exe                    2752 Console                    1     65,244 K
+notepad.exe                   3292 Console                    1      9,824 K
+cmd.exe                       3720 Console                    1      2,504 K
+conhost.exe                   1280 Console                    1      5,596 K
+WmiPrvSE.exe                   208 Services                   0      5,356 K
+tasklist.exe                  3472 Console                    1      4,444 K
+
+
+19. C:\Users\User>netsh
+netsh>
+
+
+20. C:\Users\User>driverquery
+
+Module Name  Display Name           Driver Type   Link Date
+============ ====================== ============= ======================
+1394ohci     1394 OHCI Compliant Ho Kernel        11/20/2010 5:01:11 PM
+ACPI         Microsoft ACPI Driver  Kernel        11/20/2010 3:37:52 PM
+AcpiPmi      ACPI Power Meter Drive Kernel        11/20/2010 3:47:55 PM
+adp94xx      adp94xx                Kernel        12/6/2008 6:59:55 AM
+adpahci      adpahci                Kernel        5/2/2007 12:29:26 AM
+adpu320      adpu320                Kernel        2/28/2007 7:03:08 AM
+AFD          Ancillary Function Dri Kernel        10/13/2015 11:31:51 PM
+agp440       Intel AGP Bus Filter   Kernel        7/14/2009 6:25:36 AM
+aic78xx      aic78xx                Kernel        4/12/2006 7:20:11 AM
+ALCXWDM      Service for Realtek AC Kernel        6/19/2009 2:36:37 AM
+aliide       aliide                 Kernel        7/14/2009 6:11:17 AM
+amdagp       AMD AGP Bus Filter Dri Kernel        7/14/2009 6:25:36 AM
+amdide       amdide                 Kernel        7/14/2009 6:11:19 AM
+AmdK8        AMD K8 Processor Drive Kernel        7/14/2009 6:11:03 AM
+AmdPPM       AMD Processor Driver   Kernel        7/14/2009 6:11:03 AM
+amdsata      amdsata                Kernel        3/19/2010 8:08:27 AM
+amdsbs       amdsbs                 Kernel        3/21/2009 1:35:26 AM
+amdxata      amdxata                Kernel        3/19/2010 11:19:01 PM
+AppID        AppID Driver           Kernel        10/20/2015 6:46:41 AM
+arc          arc                    Kernel        5/25/2007 4:31:06 AM
+arcsas       arcsas                 Kernel        1/15/2009 2:26:37 AM
+AsyncMac     RAS Asynchronous Media Kernel        7/14/2009 6:54:46 AM
+atapi        IDE Channel            Kernel        7/14/2009 6:11:15 AM
+b06bdrv      Broadcom NetXtreme II  Kernel        2/14/2009 5:10:59 AM
+b57nd60x     Broadcom NetXtreme Gig Kernel        4/26/2009 6:15:34 PM
+Beep         Beep                   Kernel        7/14/2009 6:45:00 AM
+blbdrive     blbdrive               Kernel        7/14/2009 6:23:04 AM
+bowser       Browser Support Driver File System   2/23/2011 11:47:32 AM
+BrFiltLo     Brother USB Mass-Stora Kernel        8/7/2006 4:33:45 AM
+BrFiltUp     Brother USB Mass-Stora Kernel        8/7/2006 4:33:45 AM
+Brserid      Brother MFC Serial Por Kernel        8/7/2006 4:33:50 AM
+BrSerWdm     Brother WDM Serial dri Kernel        8/7/2006 4:33:44 AM
+BrUsbMdm     Brother MFC USB Fax On Kernel        8/7/2006 4:33:43 AM
+BrUsbSer     Brother MFC USB Serial Kernel        8/9/2006 7:02:02 PM
+BTHMODEM     Bluetooth Serial Commu Kernel        7/14/2009 6:51:34 AM
+cdfs         CD/DVD File System Rea File System   7/14/2009 6:11:14 AM
+cdrom        CD-ROM Driver          Kernel        11/20/2010 3:38:09 PM
+circlass     Consumer IR Devices    Kernel        7/14/2009 6:51:17 AM
+CLFS         Common Log (CLFS)      Kernel        3/4/2015 10:00:23 AM
+CmBatt       Microsoft ACPI Control Kernel        7/14/2009 6:19:18 AM
+cmdide       cmdide                 Kernel        7/14/2009 6:11:18 AM
+CNG          CNG                    Kernel        9/22/2015 9:56:15 AM
+Compbatt     Compbatt               Kernel        7/14/2009 6:19:18 AM
+CompositeBus Composite Bus Enumerat Kernel        11/20/2010 4:50:21 PM
+crcdisk      Crcdisk Filter Driver  Kernel        7/14/2009 6:46:05 AM
+CSC          Offline Files Driver   Kernel        11/20/2010 3:44:32 PM
+DfsC         DFS Namespace Client D File System   1/7/2015 8:34:24 AM
+discache     System Attribute Cache Kernel        7/14/2009 6:24:04 AM
+Disk         Disk Driver            Kernel        7/14/2009 6:11:28 AM
+dmvsc        dmvsc                  Kernel        11/20/2010 4:14:48 PM
+drmkaud      Microsoft Trusted Audi Kernel        7/14/2009 6:50:57 AM
+DXGKrnl      LDDM Graphics Subsyste Kernel        6/16/2014 7:43:59 AM
+ebdrv        Broadcom NetXtreme II  Kernel        12/31/2008 11:06:23 PM
+elxstor      elxstor                Kernel        2/4/2009 5:09:33 AM
+ErrDev       Microsoft Hardware Err Kernel        7/14/2009 6:19:18 AM
+exfat        exFAT File System Driv File System   7/14/2009 6:14:01 AM
+fastfat      FAT12/16/32 File Syste File System   7/14/2009 6:14:01 AM
+fdc          Floppy Disk Controller Kernel        7/14/2009 6:45:45 AM
+FileInfo     File Information FS Mi File System   7/14/2009 6:21:51 AM
+Filetrace    Filetrace              File System   7/14/2009 6:15:29 AM
+flpydisk     Floppy Disk Driver     Kernel        7/14/2009 6:45:45 AM
+FltMgr       FltMgr                 File System   7/14/2009 6:11:13 AM
+FsDepends    File System Dependency File System   7/14/2009 6:15:38 AM
+fvevol       Bitlocker Drive Encryp Kernel        1/24/2013 9:41:37 AM
+gagp30kx     Microsoft Generic AGPv Kernel        7/14/2009 6:25:42 AM
+hcw85cir     Hauppauge Consumer Inf Kernel        5/11/2009 2:22:41 PM
+HdAudAddServ Microsoft 1.1 UAA Func Kernel        11/20/2010 5:00:19 PM
+HDAudBus     Microsoft UAA Bus Driv Kernel        11/20/2010 4:59:28 PM
+HidBatt      HID UPS Battery Driver Kernel        7/14/2009 6:19:21 AM
+HidBth       Microsoft Bluetooth HI Kernel        7/14/2009 6:51:33 AM
+HidIr        Microsoft Infrared HID Kernel        7/14/2009 6:51:04 AM
+HidUsb       Microsoft HID Class Dr Kernel        11/20/2010 4:59:38 PM
+HpSAMD       HpSAMD                 Kernel        5/19/2009 6:42:46 AM
+HTTP         HTTP                   Kernel        2/25/2015 10:03:11 AM
+hwpolicy     Hardware Policy Driver Kernel        11/20/2010 3:37:35 PM
+i8042prt     i8042 Keyboard and PS/ Kernel        7/14/2009 6:11:23 AM
+iaStorV      iaStorV                Kernel        6/11/2010 7:45:02 AM
+igfx         igfx                   Kernel        5/7/2009 1:13:40 AM
+iirsp        iirsp                  Kernel        12/14/2005 4:48:01 AM
+intelide     intelide               Kernel        7/14/2009 6:11:19 AM
+intelppm     Intel Processor Driver Kernel        7/14/2009 6:11:03 AM
+IpFilterDriv IP Traffic Filter Driv Kernel        7/14/2009 6:54:28 AM
+IPMIDRV      IPMIDRV                Kernel        11/20/2010 4:19:14 PM
+IPNAT        IP Network Address Tra Kernel        7/14/2009 6:54:28 AM
+IRENUM       IR Bus Enumerator      Kernel        7/14/2009 6:53:27 AM
+isapnp       isapnp                 Kernel        7/14/2009 6:19:29 AM
+iScsiPrt     iScsiPort Driver       Kernel        2/4/2014 8:17:29 AM
+kbdclass     Keyboard Class Driver  Kernel        7/14/2009 6:11:15 AM
+kbdhid       Keyboard HID Driver    Kernel        11/20/2010 4:50:10 PM
+KSecDD       KSecDD                 Kernel        10/20/2015 6:29:53 AM
+KSecPkg      KSecPkg                Kernel        10/20/2015 6:45:27 AM
+lltdio       Link-Layer Topology Di Kernel        7/14/2009 6:53:18 AM
+LSI_FC       LSI_FC                 Kernel        12/10/2008 5:28:47 AM
+LSI_SAS      LSI_SAS                Kernel        5/19/2009 7:19:55 AM
+LSI_SAS2     LSI_SAS2               Kernel        5/19/2009 7:31:29 AM
+LSI_SCSI     LSI_SCSI               Kernel        4/17/2009 5:14:47 AM
+luafv        UAC File Virtualizatio File System   7/14/2009 6:15:44 AM
+megasas      megasas                Kernel        5/19/2009 8:09:36 AM
+MegaSR       MegaSR                 Kernel        5/19/2009 8:25:17 AM
+Modem        Modem                  Kernel        9/14/2011 9:55:53 AM
+monitor      Microsoft Monitor Clas Kernel        7/14/2009 6:25:58 AM
+mouclass     Mouse Class Driver     Kernel        7/14/2009 6:11:15 AM
+mouhid       Mouse HID Driver       Kernel        7/14/2009 6:45:08 AM
+mountmgr     Mount Point Manager    Kernel        7/15/2015 11:34:19 PM
+mpio         mpio                   Kernel        11/20/2010 4:51:28 PM
+mpsdrv       Windows Firewall Autho Kernel        7/14/2009 6:52:52 AM
+MRxDAV       WebDav Client Redirect File System   12/19/2014 8:34:43 AM
+mrxsmb       SMB MiniRedirector Wra File System   10/20/2015 6:31:21 AM
+mrxsmb10     SMB 1.x MiniRedirector File System   10/20/2015 6:32:08 AM
+mrxsmb20     SMB 2.0 MiniRedirector File System   10/20/2015 6:31:53 AM
+msahci       msahci                 Kernel        11/20/2010 4:50:48 PM
+msdsm        msdsm                  Kernel        11/20/2010 4:51:42 PM
+Msfs         Msfs                   File System   7/14/2009 6:11:26 AM
+mshidkmdf    Pass-through HID to KM Kernel        7/14/2009 6:51:07 AM
+msisadrv     msisadrv               Kernel        7/14/2009 6:11:09 AM
+MSKSSRV      Microsoft Streaming Se Kernel        7/14/2009 6:45:08 AM
+MSPCLOCK     Microsoft Streaming Cl Kernel        7/14/2009 6:45:08 AM
+MSPQM        Microsoft Streaming Qu Kernel        7/14/2009 6:45:07 AM
+MsRPC        MsRPC                  Kernel        7/14/2009 6:11:59 AM
+mssmbios     Microsoft System Manag Kernel        7/14/2009 6:19:25 AM
+MSTEE        Microsoft Streaming Te Kernel        7/14/2009 6:45:08 AM
+MTConfig     Microsoft Input Config Kernel        7/14/2009 6:46:55 AM
+Mup          Mup                    File System   1/7/2015 8:34:31 AM
+NativeWifiP  NativeWiFi Filter      Kernel        7/14/2009 6:51:59 AM
+NDIS         NDIS System Driver     Kernel        10/13/2015 10:32:54 AM
+NdisCap      NDIS Capture LightWeig Kernel        7/14/2009 6:52:44 AM
+NdisTapi     Remote Access NDIS TAP Kernel        7/14/2009 6:54:24 AM
+Ndisuio      NDIS Usermode I/O Prot Kernel        11/20/2010 5:06:36 PM
+NdisWan      Remote Access NDIS WAN Kernel        11/20/2010 5:07:48 PM
+NDProxy      NDIS Proxy             Kernel        11/20/2010 5:07:39 PM
+NetBIOS      NetBIOS Interface      File System   7/14/2009 6:53:54 AM
+NetBT        NetBT                  Kernel        11/20/2010 3:39:22 PM
+nfrd960      nfrd960                Kernel        6/7/2006 4:12:15 AM
+Npfs         Npfs                   File System   7/14/2009 6:11:31 AM
+nsiproxy     NSI proxy service driv Kernel        7/14/2009 6:12:08 AM
+Ntfs         Ntfs                   File System   1/24/2014 8:01:10 AM
+Null         Null                   Kernel        7/14/2009 6:11:12 AM
+nvraid       nvraid                 Kernel        3/20/2010 4:00:09 AM
+nvstor       nvstor                 Kernel        3/20/2010 3:51:52 AM
+nv_agp       NVIDIA nForce AGP Bus  Kernel        7/14/2009 6:25:50 AM
+ohci1394     1394 OHCI Compliant Ho Kernel        7/14/2009 6:51:29 AM
+Parport      Parallel port driver   Kernel        7/14/2009 6:45:34 AM
+partmgr      Partition Manager      Kernel        3/17/2012 12:03:08 PM
+Parvdm       Parvdm                 Kernel        7/14/2009 6:45:29 AM
+pci          PCI Bus Driver         Kernel        11/20/2010 3:37:57 PM
+pciide       pciide                 Kernel        7/14/2009 6:11:19 AM
+pcmcia       pcmcia                 Kernel        7/14/2009 6:19:29 AM
+pcw          Performance Counters f Kernel        7/14/2009 6:11:10 AM
+PEAUTH       PEAUTH                 Kernel        2/3/2015 9:58:08 AM
+PptpMiniport WAN Miniport (PPTP)    Kernel        7/14/2009 6:54:47 AM
+Processor    Processor Driver       Kernel        7/14/2009 6:11:03 AM
+Psched       QoS Packet Scheduler   Kernel        7/14/2009 6:53:58 AM
+ql2300       ql2300                 Kernel        1/23/2009 6:28:52 AM
+ql40xx       ql40xx                 Kernel        5/19/2009 8:17:31 AM
+QWAVEdrv     QWAVE driver           Kernel        7/14/2009 6:54:12 AM
+RasAcd       Remote Access Auto Con Kernel        7/14/2009 6:54:40 AM
+RasAgileVpn  WAN Miniport (IKEv2)   Kernel        7/14/2009 6:55:00 AM
+Rasl2tp      WAN Miniport (L2TP)    Kernel        7/14/2009 6:54:33 AM
+RasPppoe     Remote Access PPPOE Dr Kernel        7/14/2009 6:54:53 AM
+RasSstp      WAN Miniport (SSTP)    Kernel        7/14/2009 6:54:57 AM
+rdbss        Redirected Buffering S File System   1/7/2015 8:34:41 AM
+rdpbus       Remote Desktop Device  Kernel        7/14/2009 7:02:40 AM
+RDPCDD       RDPCDD                 Kernel        11/20/2010 5:22:19 PM
+RDPDR        Terminal Server Device Kernel        11/20/2010 5:24:44 PM
+RDPENCDD     RDP Encoder Mirror Dri Kernel        7/14/2009 7:01:39 AM
+RDPREFMP     Reflector Display Driv Kernel        7/14/2009 7:01:41 AM
+RdpVideoMini Remote Desktop Video M Kernel        8/23/2012 9:44:32 PM
+RDPWD        RDP Winstation Driver  Kernel        7/17/2014 8:02:49 AM
+rdyboost     ReadyBoost             Kernel        11/20/2010 4:00:07 PM
+rspndr       Link-Layer Topology Di Kernel        7/14/2009 6:53:20 AM
+RTL8023xp    Realtek 10/100 NIC Fam Kernel        1/23/2014 4:01:30 PM
+RTL8167      Realtek 8167 NT Driver Kernel        2/26/2009 4:04:22 PM
+s3cap        s3cap                  Kernel        11/20/2010 4:14:41 PM
+sbp2port     sbp2port               Kernel        11/20/2010 3:38:08 PM
+scfilter     Smart card PnP Class F Kernel        11/20/2010 4:24:55 PM
+secdrv       Security Driver        Kernel        9/13/2006 8:18:32 PM
+Serenum      Nuvoton Serenum Filter Kernel        11/9/2011 3:35:45 PM
+Serial       Nuvoton Serial driver  Kernel        11/9/2011 3:34:27 PM
+sermouse     Serial Mouse Driver    Kernel        7/14/2009 6:45:08 AM
+sffdisk      SFF Storage Class Driv Kernel        7/14/2009 6:45:52 AM
+sffp_mmc     SFF Storage Protocol D Kernel        7/14/2009 6:45:52 AM
+sffp_sd      SFF Storage Protocol D Kernel        11/20/2010 4:50:48 PM
+sfloppy      High-Capacity Floppy D Kernel        7/14/2009 6:45:52 AM
+sisagp       SIS AGP Bus Filter     Kernel        7/14/2009 6:25:35 AM
+SiSRaid2     SiSRaid2               Kernel        9/25/2008 1:19:45 AM
+SiSRaid4     SiSRaid4               Kernel        10/2/2008 4:52:22 AM
+Smb          Message-oriented TCP/I Kernel        7/14/2009 6:53:39 AM
+spldr        Security Processor Loa Kernel        5/11/2009 11:13:47 PM
+srv          Server SMB 1.xxx Drive File System   4/29/2011 9:46:30 AM
+srv2         Server SMB 2.xxx Drive File System   4/29/2011 9:46:13 AM
+srvnet       srvnet                 File System   4/29/2011 9:46:08 AM
+stexstor     stexstor               Kernel        2/18/2009 6:03:21 AM
+storflt      Disk Virtual Machine B Kernel        11/20/2010 4:14:37 PM
+storvsc      storvsc                Kernel        11/20/2010 4:14:37 PM
+swenum       Software Bus Driver    Kernel        7/14/2009 6:45:08 AM
+Synth3dVsc   Synth3dVsc             Kernel        11/20/2010 5:24:48 PM
+Tcpip        TCP/IP Protocol Driver Kernel        4/5/2014 8:10:29 AM
+TCPIP6       Microsoft IPv6 Protoco Kernel        4/5/2014 8:10:29 AM
+tcpipreg     TCP/IP Registry Compat Kernel        10/3/2012 10:21:37 PM
+TDPIPE       TDPIPE                 Kernel        11/20/2010 5:21:10 PM
+TDTCP        TDTCP                  Kernel        2/17/2012 11:13:21 AM
+tdx          NetIO Legacy TDI Suppo Kernel        10/13/2015 11:31:24 PM
+TermDD       Terminal Device Driver Kernel        11/20/2010 5:21:10 PM
+terminpt     Microsoft Remote Deskt Kernel        8/23/2012 9:46:54 PM
+tssecsrv     Remote Desktop Service Kernel        8/5/2015 11:58:09 PM
+TsUsbFlt     TsUsbFlt               Kernel        10/2/2013 7:42:31 AM
+TsUsbGD      Remote Desktop Generic Kernel        10/2/2013 7:43:05 AM
+tsusbhub     tsusbhub               Kernel        11/20/2010 5:24:40 PM
+tunnel       Microsoft Tunnel Minip Kernel        11/20/2010 5:06:40 PM
+uagp35       Microsoft AGPv3.5 Filt Kernel        7/14/2009 6:25:40 AM
+udfs         udfs                   File System   11/20/2010 3:42:27 PM
+uliagpkx     Uli AGP Bus Filter     Kernel        7/14/2009 6:25:47 AM
+umbus        UMBus Enumerator Drive Kernel        11/20/2010 5:00:23 PM
+UmPass       Microsoft UMPass Drive Kernel        7/14/2009 6:51:35 AM
+usbccgp      Microsoft USB Generic  Kernel        11/27/2013 8:13:44 AM
+usbcir       eHome Infrared Receive Kernel        7/12/2013 5:07:54 PM
+usbehci      Microsoft USB 2.0 Enha Kernel        11/27/2013 8:13:41 AM
+usbhub       Microsoft USB Standard Kernel        11/27/2013 8:14:23 AM
+usbohci      Microsoft USB Open Hos Kernel        11/27/2013 8:13:38 AM
+usbprint     Microsoft USB PRINTER  Kernel        7/14/2009 7:17:06 AM
+USBSTOR      USB Mass Storage Drive Kernel        9/3/2011 3:06:50 PM
+usbuhci      Microsoft USB Universa Kernel        11/27/2013 8:13:36 AM
+usb_rndisx   USB RNDIS Adapter      Kernel        2/12/2013 10:32:46 AM
+vdrvroot     Microsoft Virtual Driv Kernel        7/14/2009 6:46:19 AM
+vga          vga                    Kernel        7/14/2009 6:25:49 AM
+VgaSave      VgaSave                Kernel        7/14/2009 6:25:50 AM
+vhdmp        vhdmp                  Kernel        11/20/2010 4:51:49 PM
+viaagp       VIA AGP Bus Filter     Kernel        7/14/2009 6:25:39 AM
+ViaC7        VIA C7 Processor Drive Kernel        7/14/2009 6:11:03 AM
+viaide       viaide                 Kernel        7/14/2009 6:11:20 AM
+VIAudio      Vinyl AC'97 Audio Cont Kernel        6/27/2007 1:41:59 PM
+vmbus        vmbus                  Kernel        11/20/2010 4:14:58 PM
+VMBusHID     VMBusHID               Kernel        11/20/2010 4:14:44 PM
+volmgr       Volume Manager Driver  Kernel        11/20/2010 3:38:06 PM
+volmgrx      Dynamic Volume Manager Kernel        7/14/2009 6:11:41 AM
+volsnap      Storage volumes        Kernel        11/20/2010 3:38:13 PM
+vsmraid      vsmraid                Kernel        1/31/2009 8:13:29 AM
+vwifibus     Virtual WiFi Bus Drive Kernel        7/14/2009 6:52:02 AM
+WacomPen     Wacom Serial Pen HID D Kernel        7/14/2009 6:46:53 AM
+WANARP       Remote Access IP ARP D Kernel        11/20/2010 5:07:45 PM
+Wanarpv6     Remote Access IPv6 ARP Kernel        11/20/2010 5:07:45 PM
+Wd           Wd                     Kernel        7/14/2009 6:11:31 AM
+Wdf01000     Kernel Mode Driver Fra Kernel        6/22/2013 9:29:37 AM
+WfpLwf       WFP Lightweight Filter Kernel        7/14/2009 6:53:51 AM
+WIMMount     WIMMount               File System   7/14/2009 6:17:57 AM
+WinUsb       WinUsb                 Kernel        11/20/2010 4:59:43 PM
+WmiAcpi      Microsoft Windows Mana Kernel        7/14/2009 6:19:16 AM
+ws2ifsl      Winsock IFS Driver     Kernel        7/14/2009 6:55:01 AM
+WudfPf       User Mode Driver Frame Kernel        7/26/2012 9:33:43 AM
+WUDFRd       WUDFRd                 Kernel        7/26/2012 9:32:51 AM
