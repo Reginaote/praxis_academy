@@ -1,61 +1,53 @@
-public class TipeData2{
-  public static void main(String args[])
-  {
-    System.out.println("Masukkan Ordo Matrik");
-    System.out.println("==========================");
-    System.out.print("Masukkan Jumlah Baris :"); baris = in.nextInt();
-    System.out.print("Masukkan Jumlah Kolom :"); kolom = in.nextInt();
+import java.util.Scanner;
 
-    int A[][] = new int[baris][kolom];
-    int B[][] = new int[baris][kolom];
-    int sum[][] = new int[baris][kolom];
+public class ArrayMatrix2{
 
-    System.out.println("\nMasukkan elemen untuk Matriks A");
-    System.out.println("============================");
-    for ( i = 0 ; i < baris ; i++ )
-    {
-      for ( j = 0 ; j < kolom ; j++ )
-      {
-        System.out.print("[" +(i+1)+ "][" +(j+1)+ "]:");
-        A[i][j] = in.nextInt();
-      }
+    public static void main(String[] args) {
+        int baris, kolom, i, j;
+        
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Masukkan Ordo Matrix");
+        System.out.println("===================================");
+        System.out.print("Masukkan Jumlah baris : ");
+        baris = sc.nextInt();
+        System.out.print("Masukkan Jumlah Kolom : ");
+        kolom = sc.nextInt();
 
-    }
-    
-  }
+        int A[][] = new int[baris][kolom];
+        int B[][] = new int[baris][kolom];
+        int sum[][]= new int[baris][kolom];
 
-  System.out.println("\nMasukkan elemen untuk Matriks B");
-    System.out.println("============================");
-    for ( i = 0 ; i < baris ; i++ )
-    {
-      for ( j = 0 ; j < kolom ; j++ )
-      {
-        System.out.print("[" +(i+1)+ "][" +(j+1)+ "]:");
-        B[i][j] = in.nextInt();
-      }
+        System.out.println("\n Masukkan elemen untuk Matrix A : ");
+        System.out.println("==================================");
+        for(i = 0; i < baris; i++){
+            for(j = 0; j < kolom; j++){
+                System.out.print("[" +(i+1)+ "][" +(j+1)+ "] :");
+                A[i][j] = sc.nextInt();
+            }
+        }
 
+        System.out.println("\n Masukkan elemen untuk Matriks B");
+        System.out.println("===================================");
+        for(i = 0; i < baris; i++){
+            for(j = 0; j < kolom; j++){
+                System.out.print("["+(i+1)+ "]["+(j+1)+ "]:");
+                B[i][j] = sc.nextInt();
+            }
+        }
 
-    }
-
-    // Penjumlahan Matriks
-    for ( i = 0 ; i < baris ; i++)
-    {
-      for ( i = 0 ; i < kolom ; i++)
-      {
-
-    }
-
-
-    System.out.println("\nhasil Penjumlahan matriks");
-    System.out.println("============================");
-    for ( i = 0 ; i < baris ; i++ )
-    {
-      for ( j = 0 ; j < kolom ; j++ )
-      {
-        System.out.print(sum[i][j]+"\t");
-      }
-
-      System.out.print();
-
+        // Penjumlahan Matrix
+        for (i = 0; i < baris; i++){
+            for(j = 0; j < kolom; j++){
+                sum[i][j] = A[i][j] + B[i][j];
+            }
+        }
+        System.out.println("\n Penjumlahan Matrix");
+        System.out.println("==================================");
+        for(i = 0; i < baris; i++){
+            for(j = 0; j < kolom; j++){
+                System.out.print(sum[i][j]+"\t");
+            }
+        System.out.println();
+        }
     }
 }
