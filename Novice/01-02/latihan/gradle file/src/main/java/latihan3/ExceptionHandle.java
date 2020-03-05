@@ -1,3 +1,5 @@
+package latihan3; 
+
 // Java program to demonstrate exception is thrown 
 // how the runTime system searches th call stack 
 // to find appropriate exception handler. 

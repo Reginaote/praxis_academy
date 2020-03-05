@@ -1,3 +1,5 @@
+package latihan3; 
+
 // java program to demonstrate 
 // need of try-catch clause 
 

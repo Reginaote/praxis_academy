@@ -1,4 +1,4 @@
-package package_one; 
+package latihan3; 
 
 public class ClassTwo { 
 	public void methodClassTwo(){ 
