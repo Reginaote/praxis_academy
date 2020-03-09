@@ -4,7 +4,10 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-
+/**
+  * Sample implementation of Vending Machine in Java
+  * @author Javin Paul
+  */
 public class VendingMachineImpl implements VendingMachine {   
     private Inventory<Coin> cashInventory = new Inventory<Coin>();
     private Inventory<Item> itemInventory = new Inventory<Item>();  
@@ -17,7 +20,8 @@ public class VendingMachineImpl implements VendingMachine {
     }
    
     private void initialize(){       
-              
+        //initialize machine with 5 coins of each denomination
+        //and 5 cans of each Item       
         for(Coin c : Coin.values()){
             cashInventory.put(c, 5);
         }
@@ -60,11 +64,13 @@ public class VendingMachineImpl implements VendingMachine {
                 itemInventory.deduct(currentItem);
                 return currentItem;
             }           
-            throw new NotSufficientChangeException("Not Sufficient change in Inventory");
+            throw new NotSufficientChangeException("Not Sufficient change in 
+                                                    Inventory");
            
         }
         long remainingBalance = currentItem.getPrice() - currentBalance;
-        throw new NotFullPaidException("Price not full paid, remaining : ", remainingBalance);
+        throw new NotFullPaidException("Price not full paid, remaining : ", 
+                                          remainingBalance);
     }
    
     private List<Coin> collectChange() {
@@ -95,6 +101,7 @@ public class VendingMachineImpl implements VendingMachine {
 
       
     private List<Coin> getChange(long amount) throws NotSufficientChangeException{
+
         List<Coin> changes = Collections.EMPTY_LIST;
        
         if(amount > 0){
@@ -126,7 +133,8 @@ public class VendingMachineImpl implements VendingMachine {
                     continue;
                    
                 }else{
-                    throw new NotSufficientChangeException("NotSufficientChange, Please try another product");
+                    throw new NotSufficientChangeException("NotSufficientChange,
+                                       Please try another product");
                 }
             }
         }
