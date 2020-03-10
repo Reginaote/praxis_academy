@@ -12,4 +12,3 @@ public class NotSufficientChangeException extends RuntimeException {
     }
    
 }
-

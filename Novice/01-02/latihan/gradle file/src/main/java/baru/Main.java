@@ -1,3 +1,4 @@
+package baru;
 import java.util.Scanner;
 
 /**

@@ -20,4 +20,3 @@ public class Bucket<E1, E2> {
         return second;
     }
 }
-

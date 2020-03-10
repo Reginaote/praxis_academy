@@ -3,6 +3,10 @@ package Objects;
 public class CreateObjectDemo {
 
     public static void main(String[] args) {
+        CreateObjectDemo a = new CreateObjectDemo();
+        a.run();
+    }
+    private void run(){
 		
         // Declare and create a point object and two rectangle objects.
         Point originOne = new Point(23, 94);
@@ -26,4 +30,48 @@ public class CreateObjectDemo {
         System.out.println("X Position of rectTwo: " + rectTwo.origin.x);
         System.out.println("Y Position of rectTwo: " + rectTwo.origin.y);
     }
+    public class Point {
+        public int x = 0;
+        public int y = 0;
+        //constructor
+        public Point(int a, int b) {
+            x = a;
+            y = b;
+        }
+    }
+    public class Rectangle {
+        public int width = 0;
+        public int height = 0;
+        public Point origin;
+    
+        // four constructors
+        public Rectangle() {
+            origin = new Point(0, 0);
+        }
+        public Rectangle(Point p) {
+            origin = p;
+        }
+        public Rectangle(int w, int h) {
+            origin = new Point(0, 0);
+            width = w;
+            height = h;
+        }
+        public Rectangle(Point p, int w, int h) {
+            origin = p;
+            width = w;
+            height = h;
+        }
+    
+        // a method for moving the rectangle
+        public void move(int x, int y) {
+            origin.x = x;
+            origin.y = y;
+        }
+    
+        // a method for computing the area of the rectangle
+        public int getArea() {
+            return width * height;
+        }
+    }
+    
 }

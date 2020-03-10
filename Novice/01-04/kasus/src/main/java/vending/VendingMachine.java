@@ -13,6 +13,3 @@ public interface VendingMachine {
     public Bucket<Item, List<Coin>> collectItemAndChange();   
     public void reset();
 }
-
-
-Read more: https://javarevisited.blogspot.com/2016/06/design-vending-machine-in-java.html#ixzz6GD3VCB2x
