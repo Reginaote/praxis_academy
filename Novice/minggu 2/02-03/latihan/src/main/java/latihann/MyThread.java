@@ -43,6 +43,8 @@ class MyThread implements Runnable {
             System.out.println(e);
         }
 
-        
+        System.out.println("Thread: " + title+ "\nPhase Three Started");
+
+        phaser.arriveAndDeregister();
     }
 }

@@ -1,3 +1,4 @@
+package latihann;
 
 // Java program to demonstrate 
 // the methods of Phaser class 
